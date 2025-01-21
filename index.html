@@ -17,20 +17,34 @@
           <img class="nav__logo--img"
             src="./assets 2/logo.2c489fc453a1783cbadacf914efa3df6.svg"
             alt="" />
-        <div class="nav__logo--title"> Treact
+        <div class="nav__logo--title"> Treact</div>
         </div>
-     </div>
      <div class="nav__links">
-        <li><a href="" class="nav__link">About</a></li>
-        <li><a href="" class="nav__link">Blog</a></li>
-        <li><a href="" class="nav__link">Pricing</a></li>
-        <li><a href="" class="nav__link">Contact Us</a></li>
-        <li><a href="" class="nav__link--login">Login</a></li>
-        <li><a href="" class="nav__link nav__link--primary">Sign Up
-        </a>
-        </li>
+    <a href="#" class="nav__link">About</a>
+    <a href="#" class="nav__link">Blog</a>
+    <a href="#" class="nav__link">Pricing</a>
+    <a href="#" class="nav__link">Contact Us</a>
+    <a href="#" class="nav__link nav__link login">Login</a>
+    <a href="#" class="nav__link nav__link--primary">Sign Up
+    </a>
     </div>
+    <button class="btn__menu" onclick="openMenu()">  
+      <i class="fas fa-bars"></i>
+    </button>
       </nav>
+      <div class="modal">
+      <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal__links">
+<a class="modal__link">About</a>
+<a class="modal__link">Blog</a>
+<a class="modal__link">Pricing</a>
+<a class="modal__link">Contact Us</a>
+<a class="modal__link">Login</a>
+<a class="modal__link modal__link--primary">Sign Up</a>
+      </div>
+    </div>
       <header>
         <div class="container">
           <div class="row">
@@ -81,7 +95,7 @@
   </figure>
   <div class="feature__text">
   <h2>24/7 Support</h2>
-  <p class="feature__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit atque assumenda autem sit dolore quos ipsam itaque enim officia culpa?</p>
+  <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
 </div>
 </div>
 </div>
@@ -92,7 +106,7 @@
 </figure>
 <div class="feature__text">
 <h2>Customizable</h2>
-<p class="feature__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequuntur optio aliquid quam fugiat nihil alias distinctio debitis a temporibus!</p>
+<p class="feature__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequuntur!</p>
    </div>
   </div>
 </div>
@@ -103,7 +117,7 @@
 </figure>
 <div class="feature__text">
 <h2>Reliable</h2>
-<p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus distinctio aliquam a corporis voluptatum libero, error facilis explicabo perspiciatis pariatur.</p>
+<p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, harum.</p>
 </div>
   </div>
 </div>
@@ -114,7 +128,7 @@
 </figure>
 <div class="feature__text">
 <h2>Fast</h2>
-<p class="feature__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati odio eligendi cumque pariatur minus itaque modi veritatis nisi voluptates magni!</p>
+<p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nesciunt.</p>
 </div>
 </div>
 </div>
@@ -125,7 +139,7 @@
     </figure>
     <div class="feature__text">
 <h2>Easy</h2>
-<p class="feature__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sapiente suscipit, fugiat vitae deserunt voluptatum veritatis ducimus debitis? Eius, odit?</p>
+<p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quia?</p>
     </div>
   </div>
 </div>
@@ -278,7 +292,7 @@
       <div class="container">
         <div class="row">
       <img src="./assets 2/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt class="testimonials__img">
-      <div class="testinomials__description">
+      <div class="testimonials__description">
       <div class="section__tag">testinomials</div>
      <h2 class="section__title">Our Clients <span class="purple">Love Us.</span></h2>
      <p class="section__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore eligendi minus mollitia quos ut iusto quidem, sint quaerat laboriosam error, libero deleniti rerum inventore corrupti nulla, blanditiis repellendus suscipit ducimus.</p>
@@ -299,6 +313,17 @@
 <div class="testimonial__name">Stephaine Liverani</div>
 <div class="testimonial__role">Director, Delos Inc.</div>
   </div>
+</div>
+<div class="testimonial__buttons">
+  <button class="testimonial__button">
+    <i class="fa-solid fa-arrow-left"></i>
+  </button>
+ 
+  <div class="divider"></div>
+  <button class="testimonial__button">
+    <i class="fa-solid fa-arrow-right"></i>
+  </button>
+ 
 </div>
 </div>
 </div>
@@ -360,7 +385,8 @@
             <a class="footer__column--link">Terms Of Service</a>
             <a class="footer__column--link">Disclaimer</a>
           </div>
-          <div class="footer__divider"></div>
+         <div class="footer__divider"></div>
+        </div>
           <div class="footer__bottom">
             <div class="footer__logo">
               <img src="./assets 2/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt class="footer__logo--img">
